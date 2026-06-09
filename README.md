@@ -1,27 +1,46 @@
-# QR Generator
+# 🚀 QR Generator
 
-A simple Node.js application that generates QR codes from URLs and saves them as PNG images. The application provides a command-line interface for converting website URLs into scannable QR codes.
+A Node.js application that converts URLs into QR codes and saves them as PNG images.
 
-## Features
+## ✨ Features
 
 * Generate QR codes from URLs
 * Save QR codes as PNG images
-* Store the input URL in a text file
-* Simple command-line interface
-* Lightweight and beginner-friendly
+* Store the entered URL in a text file
+* Interactive command-line interface
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 * Node.js
 * Inquirer
 * qr-image
-* File System (fs) Module
+* File System (fs)
 
-## Project Structure
+## 📦 Installation
 
+```bash
+git clone https://github.com/anushachinthakayala0064/QR-Generator.git
+cd QR-Generator
+npm install
 ```
+
+## ▶️ Usage
+
+Run the application:
+
+```bash
+node index.js
+```
+
+Enter a URL when prompted. The application generates:
+
+* `qr_img.png` – QR code image
+* `URL.txt` – stores the entered URL
+
+## 📁 Project Structure
+
+```text
 QR-Generator
-│
 ├── index.js
 ├── package.json
 ├── package-lock.json
@@ -31,50 +50,12 @@ QR-Generator
 └── .gitignore
 ```
 
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/anushachinthakayala0064/QR-Generator.git
-```
-
-Navigate to the project directory:
-
-```bash
-cd QR-Generator
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-## Usage
-
-Run the application:
-
-```bash
-node index.js
-```
-
-Enter a URL when prompted:
-
-```
-https://www.google.com
-```
-
-The application generates:
-
-* `qr_img.png` – QR code image
-* `URL.txt` – stores the entered URL
-
-## Future Enhancements
+## 🔮 Future Improvements
 
 * Add URL validation
 * Support custom QR code colors
-* Export QR codes in multiple formats
-* Develop a web-based interface
+* Develop a web interface
 
-GitHub: https://github.com/anushachinthakayala0064/QR-Generator.git
+---
+
+Built while learning Node.js and npm packages.
